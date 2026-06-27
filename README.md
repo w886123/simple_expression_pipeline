@@ -83,3 +83,7 @@ simple_expression_pipeline/
   results/
     test9_direction_percent.tsv
     test9_pipeline.log
+
+## Version control
+
+This project uses Git to track code and documentation changes.
