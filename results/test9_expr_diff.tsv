@@ -1,0 +1,5 @@
+gene	normal	tumor	diff
+TP53	10	30	20
+EGFR	20	50	30
+BRCA1	40	20	-20
+MYC	15	15	0

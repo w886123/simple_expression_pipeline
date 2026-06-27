@@ -1,0 +1,5 @@
+gene	normal	tumor	diff	direction
+TP53	10	30	20	up
+EGFR	20	50	30	up
+BRCA1	40	20	-20	down
+MYC	15	15	0	no_change

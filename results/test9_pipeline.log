@@ -1,0 +1,42 @@
+input file: data/expr_text.tsv
+prefix: test9
+output dir: results
+step1: calculate expression difference
+TP53 10 30 20
+EGFR 20 50 30
+BRCA1 40 20 -20
+MYC 15 15 0
+saved to results/test9_expr_diff.tsv
+step2: classify direction
+TP53 20 up
+EGFR 30 up
+BRCA1 -20 down
+MYC 0 no_change
+saved to results/test9_expr_direction.tsv
+step3: count direction
+up 2
+down 1
+no_change 1
+saved to results/test9_direction.tsv
+step4: sort direction count
+up 2
+down 1
+no_change 1
+saved to results/test9_direction_sorted.tsv
+step5: add percent
+up 2 50.0
+down 1 25.0
+no_change 1 25.0
+total genes = 4
+saved to results/test9_direction_percent.tsv
+pipeline finished
+final result: results/test9_direction_percent.tsv
+step6: check output files
+ok: results/test9_expr_diff.tsv
+ok: results/test9_expr_direction.tsv
+ok: results/test9_direction.tsv
+ok: results/test9_direction_sorted.tsv
+ok: results/test9_direction_percent.tsv
+ok: results/test9_pipeline.log
+all output files are ok
+final results: results/test9_direction_percent.tsv
