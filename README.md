@@ -87,3 +87,8 @@ simple_expression_pipeline/
 ## Version control
 
 This project uses Git to track code and documentation changes.
+
+## Github repository
+
+This project is available on Github
+https://github.com/w886123/simple_expression_pipeline
